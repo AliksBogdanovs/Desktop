@@ -1,0 +1,35 @@
+while True:
+    tel_nr = input("Ievadi savu telefona numuru: ")
+    if len(tel_nr) <8:
+       continue
+    else:
+        break
+
+
+while True:
+    vecums = input("Ievadi savu vecumu: ")
+    if vecums.isdigit() == True:
+        break
+    else:
+        continue
+
+print(vecums)
+
+
+
+vards = input("Ievadi savu vārdu")
+
+if vards.strip() == "":
+    print(vards)
+
+print(type(vards))
+
+while True:
+    vards = input("Ievadi savu vārdu")
+    if vards.strip() == "":
+       print("Ievadi savu vārdu")
+       continue
+    else:
+        break
+
+    print(vards)
